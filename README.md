@@ -6,10 +6,10 @@ This is my template for simple Grunt workflow with Bower, Git, Sass and Compass.
 ##Instructions
 
 Make sure you have these installed
-	1. [node.js](http://nodejs.org/)
-	2. [git](http://git-scm.com/)
-	3. [gruntjs](http://gruntjs.com/)
-	4. [bower](http://bower.io)
+-	1. [node.js](http://nodejs.org/)
+-	2. [git](http://git-scm.com/)
+-	3. [gruntjs](http://gruntjs.com/)
+-	4. [bower](http://bower.io)
 
 Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/drejcreative/GruntBowerSassWorkflow.git`
 
