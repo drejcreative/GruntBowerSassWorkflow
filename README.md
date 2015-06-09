@@ -17,10 +17,10 @@ Install grunt.js via the Mac terminal or Gitbash on a PC > `npm install -g grunt
 
 CD to the folder with workflows `cd GruntBowerSassWorkflow`
 
-Run `> npm install` to install the project dependencies
+Run > `npm install` to install the project dependencies
 
-Run `> bower install` to install the project dependencies
+Run > `bower install` to install the project dependencies
 
- Run `> grunt` command to start the automation
+ Run > `grunt` command to start the automation
 
 And open index.html in your browser and you are set to go
