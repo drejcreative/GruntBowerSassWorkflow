@@ -30,11 +30,11 @@ module.exports = function(grunt) {
         }//dev
       },//compass
 
-    //wiredep: {
-    //  task: {
-    //    src: 'builds/development/**/*.html'
-    //  }
-  //  },
+    wiredep: {
+      task: {
+        src: 'builds/development/**/*.html'
+      }
+    },
 
     connect: {
       sever: {
@@ -75,8 +75,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-wiredep');
   //grunt.loadNpmTasks('grunt-wiredep');
 
-  grunt.registerTask('default', ['connect', 'uglify', 'watch']);
+  grunt.registerTask('default', ['connect', 'uglify', "wiredep", 'watch']);
 
 }; //wrapper function
