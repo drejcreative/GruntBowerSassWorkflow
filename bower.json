@@ -1,0 +1,20 @@
+{
+  "name": "Template",
+  "version": "1.0.0",
+  "description": "A simple workflow template for grunt with sass, compass, git",
+  "authors": [
+    "Andrej Vajagic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "mustache": "~2.0.0"
+  }
+}
