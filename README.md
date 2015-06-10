@@ -11,7 +11,7 @@ Make sure you have these installed
 -	3. [gruntjs](http://gruntjs.com/)
 -	4. [bower](http://bower.io)
 
-Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/drejcreative/GruntBowerSassWorkflow.git`
+Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) > `git clone https://github.com/drejcreative/GruntBowerSassWorkflow.git`
 
 Install grunt.js via the Mac terminal or Gitbash on a PC > `npm install -g grunt-cli`
 
